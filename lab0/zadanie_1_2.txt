@@ -1,0 +1,19 @@
+1. Sprawdź typ wyników określonych działań:
+type( x )
+1 + 2 -int
+1 + 4.5 -float
+3 / 2 -float
+4 / 2 -float
+3 // 2 -int
+-3 // 2 -int
+11 % 2 -int
+2 ** 10 -int
+8 ** (1/3) - float
+
+Co oznaczają poszczególne operatory?
+2. Sprawdź i wyjaśnij działanie następujących instrukcji:
+int(3.0) - zamieni liczbe float na int czyli zapisze bez .
+float(3) -zamienie liczbe int na float czyli zapisze 3.0
+float("3") -zamieni z tekstu na liczbe float
+str(12.4) - zamienia na ciąg
+bool(0) -logiczna nie prawde 
