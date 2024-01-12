@@ -1,0 +1,18 @@
+imie = str(input("Imie"))
+print("Witaj ",imie)
+wiek = str(input("Wiek"))
+print("To twój wiek ",wiek)
+nazwisko = str(input("Nazwisko"))
+print(imie[0],nazwisko[0])
+
+cos = str(input("Podaj nazwe"))
+print(cos*5)
+łancuch1 = str(input("Podaj łańcuch"))
+łancuch2 = str(input("Podaj łańcuch2"))
+łańcuch3 = łancuch1+łancuch2
+print(łańcuch3)
+łancuch1 = str(input("Podaj łańcuch"))
+łancuch2 = str(input("Podaj łańcuch2"))
+x = int(len(łancuch1)/2)
+y = int(len(łancuch2)/2)
+print(łancuch1[0:x]+łancuch2[y:])
